@@ -35,7 +35,7 @@ int main(){
     std::cout<<"test_pc2 use_count = "<<test_pc2.use_count()<<std::endl;
 
     boost::shared_ptr<TC> test_pc3 = test_pc2;
-    test_pc3->print_str(2);
+    test_pc3->print_str(3);
     std::cout<<"test_pc3 use_count = "<<test_pc3.use_count()<<std::endl;
 
     return 0;
