@@ -1,6 +1,6 @@
 #! /bin/sh
 
-# 修改User Agent，防范浏览器指纹
+# 动态User Agent，防范浏览器指纹
 # 此脚本适用于Mac系统的Chrome
 # Linux系统，需要修改Chrome的路径
 # 使用方法: 每次使用此脚本启动Chrome浏览器, sh lanchChrome.sh
